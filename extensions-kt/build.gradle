@@ -42,8 +42,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId 'com.javgarcas'
-                artifactId 'extensions-kt'
+                groupId 'com.github.javgarcas.extensions-kt'
+                //artifactId 'extensions-kt'
                 version = '1.0'
             }
         }
